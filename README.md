@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NHL Expected Goals (xG) Model
 ## Overview
 This is a Python repo that contains a machine learning model that uses data from the NHL API to determine the likelihood a given shot will result in a goal. If you would like to run the model you should run the python scripts in the order they appear below.
@@ -92,3 +93,24 @@ If you are interested in expected goals models and would like to see how others 
 - MoneyPuck's xG Model - https://moneypuck.com/about.htm
 - Harry Shomer's xG Model - https://github.com/HarryShomer/xG-Model
 - Micah McCurdy's Magnus Model - https://hockeyviz.com/txt/xg7
+=======
+# NHL Player Shot Quality and Scoring Probability Model
+
+This project builds a machine learning model to estimate the probability that an NHL shot results in a goal. Using shot-level play-by-play data, the model combines spatial, temporal, and game-context features to quantify shot quality and identify key drivers of offensive performance.
+
+## Key Results
+- Processed 1M+ NHL shot events
+- Engineered 30+ hockey-specific features
+- Tuned a LightGBM model with Optuna
+- Achieved 0.76 AUC on held-out test data
+
+## Technical Stack
+- Python
+- Pandas
+- LightGBM
+- Optuna
+- Matplotlib
+
+## Author
+Mrudula Deshmukh
+>>>>>>> 5daf44908ab1337ab143493977a6e72f53cecd16
